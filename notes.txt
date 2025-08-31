@@ -1,0 +1,5 @@
+snow git execute @advanced_data_engineering_snowflake/branches/main/module-1/hamburg_weather/pipeline/objects/ -D "env='PROD'" --database=COURSE_REPO --schema=PUBLIC
+git fetch
+git switch fix-missing-data
+git status
+git add -P
